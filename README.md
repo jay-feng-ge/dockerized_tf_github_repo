@@ -3,7 +3,7 @@ Dockerized Terraform Script to Create a Github Repository
 
 Build Docker Image
 ```
-docker build --tag dockerized_tf_github_repo
+docker build --tag dockerized_tf_github_repo .
 ```
 
 Runs `terraform init` in the Docker Container
