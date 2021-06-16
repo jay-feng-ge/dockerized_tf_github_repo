@@ -1,5 +1,5 @@
 # dockerized_tf_github_repo
-Dockerized Terraform Script to Create a Github Repository
+Dockerized Terraform Script to Create a Github Repository, then share with "jay-feng" Github account.
 
 Build Docker Image
 ```
