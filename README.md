@@ -15,3 +15,7 @@ Runs `terraform apply` in the Docker Container, will prompt user for Github OAut
 ```
 docker run -v `pwd`:/workspace -w /workspace -i -t hashicorp/terraform:light apply 
 ```
+
+Additional arguments for `main.tf` and `collaborators.tf` can be found here:
+- https://registry.terraform.io/providers/integrations/github/latest/docs/resources/repository
+- https://registry.terraform.io/providers/integrations/github/latest/docs/resources/repository_collaborator
